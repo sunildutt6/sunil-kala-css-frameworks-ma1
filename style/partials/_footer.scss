@@ -1,0 +1,23 @@
+footer {
+  background: getColor(white-three);
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  color: darken(getColor(white-three), 50%);
+
+  &_item-mail {
+    color: darken(getColor(white-three), 50%);
+
+    &:hover {
+      text-decoration: none;
+      color: getColor(dark);
+    }
+  }
+}
+
+@media (max-width: $screen-width) {
+  footer {
+    display: block;
+    text-align: center;
+  }
+}

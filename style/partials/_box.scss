@@ -1,0 +1,26 @@
+.box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,250px);
+    margin:2.5rem 1.5rem;
+    grid-gap: 20px;
+    justify-content: center;
+
+    &_item{
+        border-radius: 15px;
+        border:none;
+        padding-top:100%;
+        position: relative;
+        background: getColor(white-three);
+
+        &-border{
+            @extend .box_item;
+            background: getColor(white);
+            border:2px solid getColor(pink);
+        }
+        &-color{
+            @extend .box_item;
+            background: getColor(pink);
+            border: 2px solid getColor(white);
+        }
+    }
+}

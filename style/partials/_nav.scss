@@ -1,0 +1,18 @@
+.navbar{
+    background: getColor(white-three) !important;
+    
+}
+
+.navbar-brand {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.nav-link {
+    color: getColor(dark) !important;
+    text-transform: uppercase;
+}
+
+.active-link{
+    color:getColor(pink) !important;
+}

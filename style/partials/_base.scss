@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+
+body{
+    background: getColor(white-one);
+    font-family: $font-main;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    width:90%;
+    margin:0 auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 1em;
+    font-size: 2em;
+    font-weight: 400;
+}
+
+.wrapper{
+    flex: 1 0 auto;
+}

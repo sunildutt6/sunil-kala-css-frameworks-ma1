@@ -1,0 +1,17 @@
+$font-main: 'Open Sans', sans-serif;
+
+$screen-width:768px; 
+$colors: (
+  white: #ffffff,
+  dark: #6a6a6a,
+  white-one: #e2e2e2,
+  white-two: #e5e5e5,
+  dark-one: #8d8d8d,
+  pink:#c32c72,
+  white-three: #f4f3ee,
+);
+
+
+@function getColor($color){
+    @return map-get($colors, $color);
+}
